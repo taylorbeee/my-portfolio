@@ -1,5 +1,5 @@
 .home-hero {
-  color: #fff;
+  color: #e9b14c;
   background: linear-gradient(
       to right,
       rgba($themeClrPrimary, 0.8),
@@ -22,8 +22,8 @@
   &__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
+    border: 2px solid #eeefda;
+    border-left: 2px solid #eeefda;
     transform: translateY(-50%);
     @include respond(tab-port) {
       display: none;
@@ -48,11 +48,11 @@
     width: 100%;
     display: block;
     padding: 1.2rem;
-    border-bottom: 2px solid #eee;
-    transition: background .3s;
+    border-bottom: 2px solid #eeefda;
+    transition: background 0.3s;
 
     &:hover {
-      background: rgba(#fff,.1);
+      background: rgba(#eeefda, 0.1);
     }
 
     &--bd-none {
@@ -199,7 +199,7 @@
 
   &__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: rgba(#fff, 2);
+    background: rgba(#cac691, 2);
     padding: 4rem;
     margin-top: 6rem;
     max-width: 80rem;
@@ -219,7 +219,7 @@
     }
   }
   &__form-label {
-    color: #666;
+    color: #152a3e;
     font-size: 1.4rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -234,7 +234,7 @@
     border: 1px solid rgb(235, 235, 235);
     font-size: 1.6rem;
     letter-spacing: 0px;
-    background: rgba(rgb(240, 240, 240), 1);
+    background: #eeefda;
     border-radius: $commonBorderRadius;
     font-weight: 600;
     /* Code for Modern Browsers */

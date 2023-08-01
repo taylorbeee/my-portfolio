@@ -33,14 +33,14 @@
     margin-bottom: 3.5rem;
     position: relative;
     &--lt {
-      color: #fff;
+      color: #eeefda;
       &::after {
-        content: '';
-        background: #fff !important;
+        content: "";
+        background: #eeefda !important;
       }
     }
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: calc(100% + 1.5rem);
       height: 5px;
@@ -71,7 +71,7 @@
     }
 
     &--lt {
-      color: #eee;
+      color: #eeefda;
     }
   }
 }
@@ -89,18 +89,19 @@
 }
 
 .btn {
-  background: #fff;
-  color: #333;
+  background: #152a3e;
+  color: #eeefda;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
   font-weight: 700;
   border-radius: $commonBorderRadius;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-  transition: transform .3s;
+  transition: transform 0.3s;
 
   &:hover {
     transform: translateY(-3px);
+    background: #3b6179;
   }
 
   &--bg {
@@ -114,7 +115,7 @@
 
   &--theme {
     background: $themeClrPrimary;
-    color: #fff;
+    color: #eeefda;
   }
   &--theme-inv {
     color: $themeClrPrimary;
@@ -133,7 +134,7 @@
 }
 
 .text-primary {
-  color: #fff;
+  color: #eeefda;
   font-size: 2.2rem;
   text-align: center;
   width: 100%;
@@ -143,7 +144,6 @@
     font-size: 2rem;
   }
 }
-
 
 .d-none {
   display: none;

@@ -2,8 +2,8 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  // background: #000;
+  background: #cac691;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 
   &__content {
@@ -20,8 +20,8 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
-    transition: color .3s;
+    color: $themeClrPrimary;
+    transition: color 0.3s;
 
     &:hover {
       color: $themeClrPrimary;
@@ -33,7 +33,7 @@
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: $themeClrPrimary;
+    background: #f7e8e8;
 
     @include respond(tab-port) {
       width: 4.5rem;
@@ -64,14 +64,18 @@
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: $themeClrPrimary;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    transition: color .3s;
+    transition: color 0.3s;
 
     &:hover {
-      color: $themeClrPrimary;
+      color: #eeefda;
+      background: #3b6179;
+      border-radius: $commonBorderRadius;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s;
     }
     @include respond(tab-port) {
       padding: 3rem 1.8rem;
@@ -97,13 +101,13 @@
   }
 
   &__sm-menu {
-    background: #fff;
+    background: #eeefda;
     position: absolute;
     width: 100%;
     top: 100%;
     visibility: hidden;
     opacity: 0;
-    transition: all .3s;
+    transition: all 0.3s;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
@@ -111,7 +115,7 @@
     &--active {
       visibility: hidden;
       opacity: 0;
-   
+
       @include respond(phone) {
         visibility: visible;
         opacity: 1;
@@ -124,21 +128,25 @@
       text-decoration: none;
       padding: 2.5rem 3rem;
       font-size: 1.6rem;
-      color: #333;
+      color: $themeClrPrimary;
       text-align: right;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid $themeClrPrimary;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
-      transition: color .3s;
-      
+      transition: color 0.3s;
+
       &:hover {
-        color: $themeClrPrimary;
+        color: #eeefda;
+        background: #3b6179;
+        border-radius: $commonBorderRadius;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s;
       }
     }
     &:first-child {
       a {
-        border-top: 1px solid #eee;
+        border-top: 1px solid $themeClrPrimary;
       }
     }
   }
