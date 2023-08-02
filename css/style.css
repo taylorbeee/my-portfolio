@@ -172,6 +172,7 @@ textarea {
       padding: 8rem 0; } }
 
 .text-primary {
+  font-family: sans-serif;
   color: #eeefda;
   font-size: 2.2rem;
   text-align: center;
@@ -185,6 +186,7 @@ textarea {
   display: none; }
 
 .home-hero {
+  font-family: "Lexend Mega", sans-serif;
   color: #e9b14c;
   background: linear-gradient(to right, rgba(21, 42, 62, 0.8), rgba(21, 42, 62, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
@@ -294,7 +296,7 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 100%;
+    width: 85%;
     display: block;
     object-fit: cover; }
   .projects__row-content {
@@ -308,6 +310,7 @@ textarea {
         align-items: center; } }
     .projects__row-content-title {
       font-weight: 700;
+      color: #152a3e;
       font-size: 2.8rem;
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
