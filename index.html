@@ -298,9 +298,9 @@
           <span class="heading-sec__main heading-sec__main--lt">Let's Connect!</span>
         </h2>
         <div class="contact__form-container">
-          <form name="'contact" data-netlify="true" action="#" class="contact__form">
+          <form name="'contact" data-netlify="true" class="contact__form">
             <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
+              <label class="contact__form-label" for="name" name="name">Name</label>
               <input
                 required
                 placeholder="Enter Your Name"
@@ -311,7 +311,7 @@
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
+              <label class="contact__form-label" for="email" name="email">Email</label>
               <input
                 required
                 placeholder="Enter Your Email"
@@ -322,7 +322,7 @@
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
+              <label class="contact__form-label" for="message" name="message">Message</label>
               <textarea
                 required
                 cols="30"
