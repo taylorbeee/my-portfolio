@@ -1,5 +1,9 @@
 ---
 
+## This portfolio made with a template, massive thanks to the original author below, check hinm out!!
+
+--
+
 <br>
 
 ## Give a Star ⭐
@@ -8,7 +12,7 @@ If you like this project then give it a **Github** star by pressing the **Star**
 
 <br>
 
----
+--
 
 <br>
 
