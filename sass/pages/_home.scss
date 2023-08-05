@@ -7,7 +7,9 @@
   //     rgba($themeClrPrimary, 0.8)
   //   ),
   //   url(../../assets/svg/common-bg.svg);
-  background-image: url("../../assets/jpeg/prism-bg.jpg");
+  background-image: url("../assets/jpeg/prism-bg.jpg");
+  background-color: #182730;
+  background-blend-mode: soft-light;
   background-position: center;
 
   height: 100vh;
@@ -123,6 +125,10 @@
       &:last-child {
         margin-bottom: 4rem;
       }
+    }
+    &-img {
+      width: 550px;
+      height: auto;
     }
   }
 }
