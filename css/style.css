@@ -305,17 +305,20 @@ textarea {
     .projects__row:last-child {
       margin-bottom: 0; }
     .projects__row-img-cont {
-      overflow: hidden; }
+      overflow: hidden;
+      display: flex;
+      justify-content: baseline;
+      align-items: center; }
+      @media only screen and (max-width: 56.25em) {
+        .projects__row-img-cont {
+          justify-content: center; } }
+      @media only screen and (max-width: 37.5em) {
+        .projects__row-img-cont {
+          justify-content: center; } }
     .projects__row-img {
       width: 85%;
-      display: block;
+      display: flex;
       object-fit: cover; }
-      @media only screen and (max-width: 56.25em) {
-        .projects__row-img {
-          padding-left: 15%; } }
-      @media only screen and (max-width: 37.5em) {
-        .projects__row-img {
-          padding-left: 15%; } }
     .projects__row-content {
       padding: 2rem 0;
       display: flex;

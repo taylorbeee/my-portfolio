@@ -164,19 +164,19 @@
     &-img-cont {
       overflow: hidden;
       display: flex;
-      justify-content: center;
+      justify-content: baseline;
       align-items: center;
+      @include respond(tab-port) {
+        justify-content: center;
+      }
+      @include respond(phone) {
+        justify-content: center;
+      }
     }
     &-img {
       width: 85%;
-      display: block;
+      display: flex;
       object-fit: cover;
-      @include respond(tab-port) {
-        padding-left: 15%;
-      }
-      @include respond(phone) {
-        padding-left: 15%;
-      }
     }
     &-content {
       padding: 2rem 0;
