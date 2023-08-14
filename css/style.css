@@ -318,7 +318,8 @@ textarea {
     .projects__row-img {
       width: 85%;
       display: flex;
-      object-fit: cover; }
+      object-fit: cover;
+      border: #152a3e solid 2px; }
     .projects__row-content {
       padding: 2rem 0;
       display: flex;
