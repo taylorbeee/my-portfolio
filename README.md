@@ -1,6 +1,6 @@
 ---
 
-## This portfolio made with a template, massive thanks to the original author below, check hinm out!!
+## This portfolio made with a template, massive thanks to the original author below, check him out!!
 
 --
 
