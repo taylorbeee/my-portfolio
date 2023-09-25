@@ -1,12 +1,6 @@
 .home-hero {
   font-family: "Lexend Mega", sans-serif;
   color: #e9b14c;
-  // background: linear-gradient(
-  //     to right,
-  //     rgba($themeClrPrimary, 0.8),
-  //     rgba($themeClrPrimary, 0.8)
-  //   ),
-  //   url(../../assets/svg/common-bg.svg);
   background-image: url("../assets/jpeg/prism-bg.jpg");
   background-color: #182730;
   background-blend-mode: soft-light;
@@ -263,6 +257,7 @@
     background: #eeefda;
     border-radius: $commonBorderRadius;
     font-weight: 600;
+
     /* Code for Modern Browsers */
     &::placeholder {
       color: #999;
